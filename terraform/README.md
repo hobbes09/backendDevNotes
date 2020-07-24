@@ -21,10 +21,18 @@ Makes a destroy plan and removes all resources created in the real world
 
 ## Working of Terraform
 
+#### Design
 ![Terraform Diagram](https://github.com/hobbes09/backendDevNotes/blob/master/terraform/resources/pic1.png "Terraform Diagram")
 
+#### Module
+- Black box of infra-structure
+- User needs to define the inputs to the module they are using. (Eg : Configs of Redis, like region, name, cluster config)
+- Module gives the expected output variables. (Eg : Redis endpoint)
 
-
+#### Private Registry
+- This are published modules
+- Publishers can push standardised modules to a module registry (or catalogue)
+- Consumers can consume the modules from the registry
 
 # References
 
