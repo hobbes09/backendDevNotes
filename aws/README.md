@@ -8,6 +8,13 @@ alt="AWS Tutorial For Beginners | Edureka" width="240" height="180" border="10" 
 
 # Important notes
 
-## Service Models
+#### Service Models
 
 ![Diagram](https://github.com/hobbes09/backendDevNotes/blob/master/aws/resources/service_models.PNG "Diagram")
+
+
+#### AWS concepts
+https://www.youtube.com/watch?v=BDBvHOaaKHo&list=PLv2a_5pNAko0Mijc6mnv04xeOut443Wnk&index=1
+
+#### AWS Networking
+https://www.youtube.com/watch?v=hiKPPy584Mg
