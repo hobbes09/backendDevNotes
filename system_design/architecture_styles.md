@@ -1,5 +1,3 @@
-## Source
-https://docs.microsoft.com/en-us/azure/architecture/guide/
 
 ## Architecture Styles
 
@@ -17,7 +15,6 @@ Event-Driven Architectures use a publish-subscribe (pub-sub) model, where produc
 A microservices application is composed of many small, independent services. Each service implements a single business capability. Services are loosely coupled, communicating through API contracts.
 
 Benefits :
-
   - Independent development
   - Independent deployments
   - Fault isolation
@@ -25,7 +22,7 @@ Benefits :
   - Independent tech
 
 
-#### Best practices
+## Best practices
 
 - Model services around the business domain.
 - Decentralize everything. Avoid sharing code or data schemas.
