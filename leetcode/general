@@ -34,3 +34,22 @@ public int maxProfit(int[] prices) {
 Kadane's Algorithm to Maximum Sum Subarray Problem
 > https://www.youtube.com/watch?v=86CQq3pKSUw
 > DP, array
+
+
+Median of two sorted arrays
+https://www.youtube.com/watch?v=LPFhl65R7ww
+https://medium.com/@dimko1/median-of-two-sorted-arrays-b7f0c4284159
+
+
+Maximum Rectangular Area in Histogram
+https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+https://www.youtube.com/watch?v=ZmnqCZp9bBs
+> ND, stack
+
+
+Maximum Size Rectangle of All 1's
+https://www.youtube.com/watch?v=g8bSdXCG-lA
+> ND, DP , related to Maximum Rectangular Area in Histogram
+
+
+https://leetcode.com/problems/remove-invalid-parentheses/

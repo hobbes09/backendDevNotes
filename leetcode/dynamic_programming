@@ -1,0 +1,46 @@
+## 0/1 Knapsack Problem
+Given a bag which can only take certain weight W. Given list of items with their weights and price. How do you fill this bag to maximize value of items in the bag.
+https://www.youtube.com/watch?v=8LusJS5-AGo
+
+
+## Longest Common Subsequence
+Given two strings, find longest common subsequence between them.
+https://www.youtube.com/watch?v=NnD96abizww
+
+
+## Subset Sum Problem
+Given a set of non negative numbers and a total, find if there exists a  subset in this set whose sum is same as total.
+https://www.youtube.com/watch?v=s6FhG--P7z0
+
+
+## Coin Changing Minimum Number of Coins
+- Fewest Coins To Make Change ( https://www.youtube.com/watch?v=jgiZlGzXMBw )
+- Total Unique Ways To Make Change ( https://www.youtube.com/watch?v=DJ4a7cmjZY0 )
+
+
+## Minimum Edit Distance
+Given two strings and operations edit, delete and add, how many minimum operations would it take to convert one string to another string.
+https://www.youtube.com/watch?v=We3YDTzNXEk
+
+
+## Longest Increasing Subsequence
+Given an array find longest increasing subsequence in this array.
+https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+
+
+## Longest Palindromic Subsequence
+Given a string, find longest palindromic subsequence in this string.
+https://www.youtube.com/watch?v=_nCsPn7_OgI
+
+
+## Cutting Rod to maximize profit
+Given a rod of length and prices at which different length of this rod can sell, how do you cut this rod to maximize profit
+https://www.youtube.com/watch?v=IRwVmTmN6go
+
+
+## Egg Dropping Problem
+Given some number of floors and some number of eggs, what is the minimum number of attempts it will take to find out from which floor egg will break.
+https://www.youtube.com/watch?v=o_AJ3VWQMzA
+
+
+## Maximum Size Rectangle of All 1's
