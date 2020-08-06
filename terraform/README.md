@@ -43,6 +43,34 @@ Makes a destroy plan and removes all resources created in the real world
 alt="Introduction to HashiCorp Terraform with Armon Dadgar" width="240" height="180" border="10" /></a>
 
 
+#### First project tutorial
+
+https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180
+
+Special IAM Management :  
+https://blog.gruntwork.io/a-comprehensive-guide-to-authenticating-to-aws-on-the-command-line-63656a686799
+
+
+#### Lifecycle of terraform
+
+https://1drv.ms/u/s!AlQbuQbBUKsWhRvsxy1Glr-h2hbL?e=ID7hF3
+
+#### Module tutorial
+
+https://www.nearform.com/blog/writing-reusable-terraform-modules/
+
+https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d
+
+
 #### AWS IAM EC2 Instance Role using Terraform
 
 https://medium.com/@devopslearning/aws-iam-ec2-instance-role-using-terraform-fa2b21488536
+
+
+#### Great collection of resources
+
+https://github.com/shuaibiyy/awesome-terraform
+
+#### Other links to check
+
+https://medium.com/slalom-technology/how-to-optimize-network-infrastructure-code-in-terraform-fff16fada668
