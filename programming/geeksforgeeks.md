@@ -50,6 +50,32 @@ https://www.geeksforgeeks.org/binary-tree-data-structure/
 https://www.geeksforgeeks.org/binary-tree-set-2-properties/
 https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 
+#### Problems
+https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
+
+https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
+
+https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
+
+https://www.geeksforgeeks.org/find-postorder-traversal-of-bst-from-preorder-traversal/
+
+https://www.geeksforgeeks.org/level-order-tree-traversal/
+
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+
+https://www.geeksforgeeks.org/level-order-traversal-line-line-set-3-using-one-queue/
+
+https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
+
+https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+
+#### ND
+
+https://www.geeksforgeeks.org/expression-tree/
+
+https://www.geeksforgeeks.org/evaluation-of-expression-tree/
+
+
 
 
 # Binary Search Trees
