@@ -1,0 +1,40 @@
+Sorting
+========
+
+Quick sort :
+https://www.youtube.com/watch?v=7h1s2SojIRw&t=1s
+https://www.youtube.com/watch?v=uXBnyYuwPe8
+
+func QuickSort(arr, l, h) {
+  if (l < h) {
+    pIndex = partition(arr, l, h);
+    QuickSort(arr, l, pIndex - 1);
+    QuickSort(arr, pIndex+1, h)
+  }
+}
+
+func partition(arr, l, h) {
+  localPivotIndex = l;
+  pivot = arr[localPivotIndex]
+  i = l+1; j = h;
+
+  while (i < j) {
+
+    while (arr[i] <= pivot && i < h) {
+      i++;
+    }
+    while(arr[j] > pivot && j > l) {
+      j--;
+    }
+
+    if (i < j) {
+      swap(arr[i], arr[j]);
+    }
+  }
+  swap(A[localPivotIndex], A[j])
+  return j;
+}
+
+
+
+====================================================

@@ -1,8 +1,22 @@
 
-# Linked List
+# Array / Two-pointer / Hash-Table / Linked-List / Divide-and-Conquer / Binary-Search
 
-#### Page
-https://www.geeksforgeeks.org/data-structures/linked-list/
+https://leetcode.com/problems/trapping-rain-water/
+
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+(Two pointers and a hashmap)
+
+https://leetcode.com/problems/3sum/
+
+https://leetcode.com/problems/product-of-array-except-self/
+
+https://leetcode.com/problems/merge-intervals/
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+
+
 
 # Stack
 
@@ -42,54 +56,6 @@ https://www.geeksforgeeks.org/expression-evaluation/
 https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/
 
 # Binary Trees
-
-#### Page
-https://www.geeksforgeeks.org/binary-tree-data-structure/
-
-https://www.geeksforgeeks.org/binary-search-tree-data-structure/
-
-
-#### Basic Problems
-https://www.geeksforgeeks.org/binary-tree-set-2-properties/
-
-https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
-
-https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
-
-https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
-
-https://leetcode.com/problems/serialize-and-deserialize-binary-tree/solution/
-
-#### Problems
-
-https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
-
-https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
-
-https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
-
-https://www.geeksforgeeks.org/find-postorder-traversal-of-bst-from-preorder-traversal/
-
-https://www.geeksforgeeks.org/level-order-tree-traversal/
-
-https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
-
-https://www.geeksforgeeks.org/level-order-traversal-line-line-set-3-using-one-queue/
-
-https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
-
-https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
-
-https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
-
-https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/
-
-
-#### ND
-
-https://www.geeksforgeeks.org/expression-tree/
-
-https://www.geeksforgeeks.org/evaluation-of-expression-tree/
 
 
 

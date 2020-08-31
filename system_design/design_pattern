@@ -1,0 +1,24 @@
+Design Patterns
+================
+
+https://sourcemaking.com/design_patterns
+https://refactoring.guru/design-patterns
+
+Common ones I use :
+
+1) Creational
+
+- Factory
+- Builder
+- Object pool
+- Singleton
+
+
+2) Structural
+- Adapter
+- Proxy
+
+
+3) Behavioral
+- Observer
+- Strategy

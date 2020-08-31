@@ -28,7 +28,10 @@ Given an array find longest increasing subsequence in this array.
 https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
 
 
-## Longest Palindromic Subsequence
+## Longest palindromic substring (Needs to continuous)
+https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/
+
+## Longest Palindromic Subsequence (Need NOT be continuous)
 Given a string, find longest palindromic subsequence in this string.
 https://www.youtube.com/watch?v=_nCsPn7_OgI
 
