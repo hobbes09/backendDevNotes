@@ -74,3 +74,11 @@ Lots of real-world studies say most of the objects (90%) garbage collected in a 
 
 # Topic 4 : Maven
 - https://stackoverflow.com/questions/13335351/what-does-maven-do-in-theory-and-in-practice-when-is-it-worth-to-use-it
+
+
+
+===============================================================================
+
+# Go vs Java
+
+https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/

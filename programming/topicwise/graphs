@@ -1,0 +1,42 @@
+
+# References :
+1) Introduction to Algorithms by Cormen = Cormen
+2) The Algorithm Design Manual by Steven Skiena = Skiena
+3) Abdul Bari Youtube videos = ABYT
+
+
+
+# Graph Basic
+
+  - Skiena : 5.1
+  - Cormen : 22.1
+
+# Graph Traversal
+
+  - BFS
+    - O(E+V)
+    - Cormen : 22.2
+    - Applications
+      - Connected components = Skiena : 5.7.1
+      - Graph coloring = Skiena 5.7.2 = ABYT : https://www.youtube.com/watch?v=052VkKhIaQ4
+      - m-Coloring/Chromatic-number decision problem = ABYT : https://www.youtube.com/watch?v=052VkKhIaQ4
+      - m-Coloring/Chromatic-number optimisaition problem = ABYT : https://www.youtube.com/watch?v=052VkKhIaQ4
+  - DFS
+    - O(E+V)
+    - Cormen : 22.3
+
+
+# Minimum Spanning Tree
+
+  - Kriskal's algorithm
+    - O(E log V) using binary heaps
+  - Prim's algorithm
+    - O(E log V) using binary heaps
+    - O(E + V log V) using Fibonacci heaps
+
+  - Tutorial :  ABYT** : https://www.youtube.com/watch?v=4ZlRH0eK-qQ
+
+
+# Single Source Shortest path
+
+  - Dijkstra : ABYT = https://www.youtube.com/watch?v=XB4MIexjvY0
