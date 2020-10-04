@@ -82,3 +82,15 @@ Lots of real-world studies say most of the objects (90%) garbage collected in a 
 # Go vs Java
 
 https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/
+
+
+===============================================================================
+# Thread-Safety
+
+https://www.baeldung.com/java-thread-safety
+
+==============================================================================
+
+# Flow API
+
+https://www.baeldung.com/java-9-reactive-streams
