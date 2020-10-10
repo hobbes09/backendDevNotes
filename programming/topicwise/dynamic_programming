@@ -1,3 +1,16 @@
+
+Theory Dynamic Programming
+==========================
+
+- Principle is optimality : Take decision on every stage to make solution optimal.
+
+- Methods :
+  - Tabulation (using iteration)
+  - Recursion and Memoization
+
+============================================================================================
+
+
 ## 0/1 Knapsack Problem
 Given a bag which can only take certain weight W. Given list of items with their weights and price. How do you fill this bag to maximize value of items in the bag.
 https://www.youtube.com/watch?v=8LusJS5-AGo
