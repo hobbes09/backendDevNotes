@@ -16,6 +16,7 @@
   - BFS
     - O(E+V)
     - Cormen : 22.2
+    - [WP] https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
     - Applications
       - Connected components = Skiena : 5.7.1
       - Graph coloring = Skiena 5.7.2 = ABYT : https://www.youtube.com/watch?v=052VkKhIaQ4
@@ -24,6 +25,10 @@
   - DFS
     - O(E+V)
     - Cormen : 22.3
+
+
+# Detect cycle in a graph
+[WC] https://www.youtube.com/watch?v=rKQaZuoUR4M
 
 
 # Minimum Spanning Tree
@@ -40,3 +45,6 @@
 # Single Source Shortest path
 
   - Dijkstra : ABYT = https://www.youtube.com/watch?v=XB4MIexjvY0
+
+# Hamiltonian cycle
+[ND] https://www.youtube.com/watch?v=dQr4wZCiJJ4

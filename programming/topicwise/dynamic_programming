@@ -9,7 +9,7 @@ Theory Dynamic Programming
   - Recursion and Memoization
 
 ============================================================================================
-
+``
 
 ## 0/1 Knapsack Problem
 Given a bag which can only take certain weight W. Given list of items with their weights and price. How do you fill this bag to maximize value of items in the bag.
@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=s6FhG--P7z0
 
 ## Minimum Edit Distance
 Given two strings and operations edit, delete and add, how many minimum operations would it take to convert one string to another string.
-https://www.youtube.com/watch?v=We3YDTzNXEk
+https://www.youtube.com/watch?v=MiqoA-yF-0M
 
 
 ## Longest Increasing Subsequence
@@ -41,12 +41,12 @@ Given an array find longest increasing subsequence in this array.
 https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
 
 
-## Longest palindromic substring (Needs to continuous)
+## Longest palindromic substring (Need NOT be continuous)
 https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/
 
-## Longest Palindromic Subsequence (Need NOT be continuous)
-Given a string, find longest palindromic subsequence in this string.
-https://www.youtube.com/watch?v=_nCsPn7_OgI
+[ND] ## Longest Palindromic Subsequence (Need to be continuous)
+Given a string, find longest palindromic subsequence in this string. [Manacher's Algorithm] 
+https://www.youtube.com/watch?v=nbTSfrEfo6M
 
 
 ## Cutting Rod to maximize profit
