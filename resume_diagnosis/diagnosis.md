@@ -53,6 +53,7 @@
   - Mention other approaches considered
 4. Playback tokenization for different CDNs and on-the-fly validity
 5. Detailing introduced for easy debugging of outdated tokens for free content served from CDN
+6. Connection orchestration ****
 
 
 ## UM - IPL preparation

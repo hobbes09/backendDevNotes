@@ -6,4 +6,29 @@ https://leetcode.com/problems/implement-trie-prefix-tree/solution/
 
 https://leetcode.com/problems/word-search-ii/solution/  -- Trie based
 
-** [WC] https://leetcode.com/problems/word-break-ii/
+** [WC] https://www.geeksforgeeks.org/boggle-set-2-using-trie/
+
+https://leetcode.com/problems/binary-tree-right-side-view/
+  - Draw this structure in a grid
+  - Maintain a hashmap with entries for each levels
+  - Starting from root, print the left first, then the right, in the hashmap
+  - By the end, only the right most nodes entry will survive
+
+
+* https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
+
+https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/solution/
+
+https://leetcode.com/problems/binary-search-tree-iterator/solution/
+
+https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/  -- method 2
+
+* [WC] https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+
+** https://leetcode.com/problems/path-sum-iii/solution/
+  - Prefix sum technique
+  - Find a number of continuous subarrays/submatrices/tree paths that sum to target
+  - https://leetcode.com/problems/subarray-sum-equals-k/solution/
+  - 
