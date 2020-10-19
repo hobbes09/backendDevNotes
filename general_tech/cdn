@@ -1,0 +1,18 @@
+# Web Application Firewall
+
+- Cross Site Scripting
+- SQL Injection
+- Command Injection
+- Remote File Inclusion
+- PHP Injection
+- Invalid Input
+- Rule based
+
+
+# Security Policies
+
+- IP/Geo Firewall
+- DoS Protection
+- WAF
+- Client reputation
+- Custom rules (RL)

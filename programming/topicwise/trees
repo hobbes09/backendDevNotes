@@ -31,4 +31,13 @@ https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/  -- meth
   - Prefix sum technique
   - Find a number of continuous subarrays/submatrices/tree paths that sum to target
   - https://leetcode.com/problems/subarray-sum-equals-k/solution/
-  - 
+
+
+
+Binary Indexed Trees [ND]
+    - https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/
+    - https://leetcode.com/problems/range-sum-query-2d-mutable/discuss/75870/Java-2D-Binary-Indexed-Tree-Solution-clean-and-short-17ms
+
+https://leetcode.com/problems/repeated-string-match/
+
+https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/

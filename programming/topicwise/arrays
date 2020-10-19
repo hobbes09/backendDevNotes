@@ -8,3 +8,20 @@ https://leetcode.com/problems/regular-expression-matching/
 
 
 https://www.geeksforgeeks.org/making-elements-of-two-arrays-same-with-minimum-incrementdecrement/
+
+** [ND] https://leetcode.com/problems/next-closest-time/
+
+** https://leetcode.com/problems/fruit-into-baskets/
+
+https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
+
+You’re given an array of integers. You need to find if there exists a triplet of indices (i, j, k) s.t:
+  >  i < j < k
+  >  a[i] < a[k] < a[j]
+
+
+** StringBuilder Usage : https://leetcode.com/problems/repeated-string-match/solution/
+
+https://leetcode.com/problems/sentence-screen-fitting/
+
+[ND] https://leetcode.com/problems/burst-balloons/
