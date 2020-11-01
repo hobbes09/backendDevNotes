@@ -16,9 +16,70 @@ Common ones I use :
 
 2) Structural
 - Adapter
+  - https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
 - Proxy
+  - https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
 
 
 3) Behavioral
 - Observer
 - Strategy
+  - https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
+
+
+=========================================================
+
+
+https://www.journaldev.com/1827/java-design-patterns-example-tutorial
+
+Ref  : https://sourcemaking.com/design-patterns-and-tips
+
+
+Creational
+
+Factory Method = https://www.javatpoint.com/factory-method-design-pattern
+
+Singleton = https://www.javatpoint.com/singleton-design-pattern-in-java
+
+Builder = https://www.journaldev.com/1425/builder-design-pattern-in-java
+
+Abstract factory = https://www.javatpoint.com/abstract-factory-pattern
+
+
+Structural 
+
+Adapter = https://sourcemaking.com/design_patterns/adapter
+
+Composite = https://www.javatpoint.com/composite-pattern
+
+Proxy = https://www.journaldev.com/1572/proxy-design-pattern
+
+Flywheel = https://www.journaldev.com/1562/flyweight-design-pattern-java
+
+Facade = https://www.journaldev.com/1557/facade-design-pattern-in-java
+
+Decorator = https://www.journaldev.com/1540/decorator-design-pattern-in-java-example
+
+
+
+Behavioral
+
+Template = https://www.journaldev.com/1763/template-method-design-pattern-in-java
+
+Mediator = https://www.journaldev.com/1730/mediator-design-pattern-java
+
+Observer = https://www.journaldev.com/1739/observer-design-pattern-in-java
+
+Chain of responsibility = https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java
+
+Strategy = https://www.journaldev.com/1754/strategy-design-pattern-in-java-example-tutorial
+
+Command = https://www.journaldev.com/1624/command-design-pattern
+
+State = https://www.geeksforgeeks.org/state-design-pattern/
+
+Interpreter = https://www.journaldev.com/1635/interpreter-design-pattern-java
+
+Iterator = https://www.journaldev.com/1716/iterator-design-pattern-java
+
+Visitor = https://www.journaldev.com/1769/visitor-design-pattern-java

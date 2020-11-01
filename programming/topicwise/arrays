@@ -9,7 +9,7 @@ https://leetcode.com/problems/regular-expression-matching/
 
 https://www.geeksforgeeks.org/making-elements-of-two-arrays-same-with-minimum-incrementdecrement/
 
-** [ND] https://leetcode.com/problems/next-closest-time/
+** https://leetcode.com/problems/next-closest-time/
 
 ** https://leetcode.com/problems/fruit-into-baskets/
 
@@ -29,3 +29,18 @@ https://leetcode.com/problems/sentence-screen-fitting/
 https://leetcode.com/problems/hand-of-straights/solution/
   - https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
   - https://leetcode.com/problems/split-array-into-consecutive-subsequences/
+
+
+https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+  - For each number, add the limit, and try to find closest number index to that number, find count between those indexes
+  - Based on : https://www.geeksforgeeks.org/find-closest-number-array/
+
+
+https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+  - Best solution : https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/597825/Simple-Clean-Intuitive-Explanation-with-Visualization
+
+
+https://leetcode.com/problems/longest-palindromic-substring/solution/
+  - O(n^2)
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solution/  
