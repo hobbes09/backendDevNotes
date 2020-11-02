@@ -1,3 +1,4 @@
+
 # What to talk about
 
 1. Brief introduction about the Service
@@ -104,3 +105,8 @@ https://docs.keydb.dev/blog/2019/10/07/blog-post/
 https://github.com/JohnSully/KeyDB
 
 https://medium.com/@john_63123/redis-should-be-multi-threaded-e28319cab744
+
+
+# To ask Questions at end of interview
+
+https://9gag.com/gag/agApnGx
