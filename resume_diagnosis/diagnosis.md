@@ -29,17 +29,28 @@
   - Tokenization
 
 #### Technical challenging aspect
+// PC requirement
+  - Available
+  - Partitionable (scalable)
+  - Eventual consistent
+  - Highly reliable
+
 1. High scale handling capability
-  - Service has both sync and async operations
-  - Async operations : Rate limiters, Risk analysis
-  - Orthogonality of the language : For redis in Java (Jedis/Lettuce/Reddison), in Golang OOTB
+  - Offloading portion of the load (free content) to CDN
+    - Design tracking and debugging functionalities
+    - Detailing introduced for easy debugging of outdated tokens for free content served from CDN
+  - For load in origin server, keep processing time for request minimal
+    - Only important operation like authorisation check is sync process
+    - Rate limits, invalid sessions, risk analysis is async (with SLA)
 
-  (Jedis [Not thread safe] = Sync + Pipelines)
-  (Lettuce [Multi-threaded and event based] = sync (async underneath) + async + reactive + pipeline)
-  (Jedis Multi-threaded via JedisPool)
-  (redis.Client is thread-safe, but NOT redis.Multi, redis.Pipeline and redis.PubSub. Use pools of connections if required)
+2. Connection orchestration
+    - Total connections
+    - Max connections per host
+    - Max idle connections per host
+    - Read buffer size for high payload size
+    - Incase of failure, close used connections (else goes to WAIT state)
 
-2. Rate Limiter multiple types
+3. Rate Limiter multiple types
   - Redis cluster doesnt support multi-get or pipeline
   - Configure :
   (Cluster - min and max connections used by goroutines / Context switching / latency)
@@ -49,12 +60,15 @@
   (Use circuit breakers)
   (Degradation policies)
 
-3. Change rate limiter policies without deployment
+  (Jedis [Not thread safe] = Sync + Pipelines)
+  (Lettuce [Multi-threaded and event based] = sync (async underneath) + async + reactive + pipeline)
+  (Jedis Multi-threaded via JedisPool)
+  (go.redis.Client is thread-safe, but NOT redis.Multi, redis.Pipeline and redis.PubSub. Use pools of connections if required)
+
+4. Change rate limiter policies without deployment
   - Config change in file
   - Mention other approaches considered
-4. Playback tokenization for different CDNs and on-the-fly validity
-5. Detailing introduced for easy debugging of outdated tokens for free content served from CDN
-6. Connection orchestration ****
+5. Playback tokenization for different CDNs and on-the-fly validity
 
 
 ## UM - IPL preparation
@@ -79,6 +93,7 @@
 - Disaster recovery strategy
 - Verify all alarms systems are working fine
 - Vertical testing of each service - results in per pod estimation and checking of degraded performance and efficient utilization of resources, and panic verification
+- Identify weak points of each service and design degradation scenario handling
 - Gameday scripts to mock the real-match traffic volume
 
 

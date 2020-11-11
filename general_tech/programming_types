@@ -1,0 +1,29 @@
+
+https://cs.lmu.edu/~ray/notes/paradigms/
+
+
+- CAP theorem
+- Redundant resources
+- Minimal coordination
+- Scalability
+    - Autoscaling factors for each node
+- Evolvable
+- Performance tuning
+    - Caching
+    - Distributed transactions
+    - Eventual Consistency
+- Reliability
+    - Redundancy
+- Resiliency / Recoverability
+    - Compensating transactions
+    - Failover scenarios
+    - Self healing
+    - Panic / Disaster recovery
+- Security
+- Deployment
+- Polyglot persistence
+- Partition-ability around limits
+- Monitoring and diagnostics
+- Address transient faults for each node
+    - Types of fault possible
+    - Handling principles
