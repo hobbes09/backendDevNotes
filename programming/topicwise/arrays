@@ -43,4 +43,38 @@ https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 https://leetcode.com/problems/longest-palindromic-substring/solution/
   - O(n^2)
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solution/  
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solution/
+
+https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/
+
+https://leetcode.com/problems/product-of-array-except-self/
+
+* https://leetcode.com/problems/merge-intervals/solution/
+  - Followup question :  How do you add intervals and merge them for a large stream of intervals? (Facebook Follow-up Question)
+  - Inspired by https://leetcode.com/problems/merge-intervals/discuss/21452/Share-my-interval-tree-solution-no-sorting
+  - Personal approach : Insertion sort on the array of intervals (Find the point where it can be inserted or merged) -- O(log(n)) order
+
+
+** [Pre-sum Technique] : https://leetcode.com/problems/subarray-sum-equals-k/
+
+[ND] [WC] https://leetcode.com/problems/next-permutation/
+
+[WC] https://leetcode.com/problems/text-justification/
+
+** [Sliding window best example] : https://leetcode.com/problems/minimum-window-substring/
+
+** [ND] https://leetcode.com/problems/burst-balloons/solution/
+
+* [ND] https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+** Divide and Conquer : https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+https://leetcode.com/problems/reorganize-string/
+  - https://leetcode.com/problems/reorganize-string/discuss/232469/Java-No-Sort-O(N)-0ms-beat-100
+
+https://leetcode.com/problems/longest-increasing-subsequence/
+
+** Task Scheduler :
+  - https://leetcode.com/problems/task-scheduler/discuss/104500/Java-O(n)-time-O(1)-space-1-pass-no-sorting-solution-with-detailed-explanation

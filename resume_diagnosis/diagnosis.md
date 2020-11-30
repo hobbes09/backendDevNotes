@@ -125,3 +125,10 @@ https://medium.com/@john_63123/redis-should-be-multi-threaded-e28319cab744
 # To ask Questions at end of interview
 
 https://9gag.com/gag/agApnGx
+
+
+==============
+
+micro and small businesses
+ok-shop
+ok-staff

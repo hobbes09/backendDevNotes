@@ -4,3 +4,9 @@
 
 https://leetcode.com/problems/hand-of-straights/solution/
   - https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
+
+https://leetcode.com/problems/group-anagrams/
+  - maintain a hashtable with key as sorted string, and value as list of strings that fall in that anagram category
+  - traverse and sort each string and add to corresponding anagram buckets in hashtable
+  - Print all values as per buckets
+  - https://stackoverflow.com/questions/605891/sort-a-single-string-in-java 

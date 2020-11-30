@@ -24,6 +24,7 @@ https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/solution/
 https://leetcode.com/problems/binary-search-tree-iterator/solution/
 
 https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/  -- method 2
+  - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 * [WC] https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 
@@ -32,11 +33,6 @@ https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/  -- meth
   - Find a number of continuous subarrays/submatrices/tree paths that sum to target
   - https://leetcode.com/problems/subarray-sum-equals-k/solution/
 
-
-
-Binary Indexed Trees [ND]
-    - https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/
-    - https://leetcode.com/problems/range-sum-query-2d-mutable/discuss/75870/Java-2D-Binary-Indexed-Tree-Solution-clean-and-short-17ms
 
 https://leetcode.com/problems/repeated-string-match/
 
@@ -48,3 +44,20 @@ https://leetcode.com/problems/flip-equivalent-binary-trees/
 
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
   - https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/533109/Java-BFSDFS-Solutions-Clean-code
+
+===============================
+
+** [ND][WC] Segment Tree
+  - Main problem :: https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/
+  - https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+  - https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
+  - Application : https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/
+    - https://leetcode.com/problems/largest-rectangle-in-histogram/solution/
+    - https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28941/segment-tree-solution-just-another-idea-onlogn-solution
+
+================================
+
+** [ND][WC] Binary Indexed Trees or Fenwick Tree
+    - https://www.youtube.com/watch?v=CWDQJGaN1gY
+    - https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/
+    - https://leetcode.com/problems/range-sum-query-2d-mutable/discuss/75870/Java-2D-Binary-Indexed-Tree-Solution-clean-and-short-17ms
