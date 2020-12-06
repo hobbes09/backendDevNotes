@@ -38,3 +38,8 @@ func partition(arr, l, h) {
 
 
 ====================================================
+
+
+https://leetcode.com/problems/majority-element/
+  - https://leetcode.com/problems/majority-element/discuss/51613/O(n)-time-O(1)-space-fastest-solution
+  - https://leetcode.com/problems/majority-element/discuss/51613/O(n)-time-O(1)-space-fastest-solution/52437
