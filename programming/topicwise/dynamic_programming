@@ -21,7 +21,8 @@ Given two strings, find longest common subsequence between them.
 https://www.youtube.com/watch?v=ASoaQq66foQ
 
 # Longest Common Substring (Needs to be continuous)
-https://www.youtube.com/watch?v=UZRkpGk943Q
+https://www.youtube.com/watch?v=BysNXJHzCEs
+- Each cell of the matrix means = M[i][j] = The LCS ending in index i and j respectively and including characters in those indexes
 
 ## Subset Sum Problem
 Given a set of non negative numbers and a total, find if there exists a  subset in this set whose sum is same as total.

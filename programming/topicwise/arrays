@@ -11,9 +11,10 @@ https://www.geeksforgeeks.org/making-elements-of-two-arrays-same-with-minimum-in
 
 ** https://leetcode.com/problems/next-closest-time/
 
-** https://leetcode.com/problems/fruit-into-baskets/
+https://leetcode.com/problems/fruit-into-baskets/
 
-https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
+** https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
+  - https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/discuss/252633/JavaPython-3-one-pass-counting-O(A-%2B-B)-w-brief-explanation-and-analysis.
 
 You’re given an array of integers. You need to find if there exists a triplet of indices (i, j, k) s.t:
   >  i < j < k
@@ -31,10 +32,14 @@ https://leetcode.com/problems/hand-of-straights/solution/
   - https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 
 
-https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
-  - For each number, add the limit, and try to find closest number index to that number, find count between those indexes
-  - Based on : https://www.geeksforgeeks.org/find-closest-number-array/
+https://leetcode.com/problems/sliding-window-maximum/
+  - Keep a deque of size K (window size)
+  - This deque moves through the array and records min till that index for corresponding every cell in the deque
+  - every time it moves it removes an element and adds the new element
+  - output at every index is the rightmost deque value
 
+
+* [ND] https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
 
 https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
   - Best solution : https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/597825/Simple-Clean-Intuitive-Explanation-with-Visualization
@@ -82,3 +87,5 @@ https://leetcode.com/problems/longest-increasing-subsequence/
 ** [ND][WC] Subsets, Permutations, Combination Sum, Palindrome Partioning
   - https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
   - https://leetcode.com/problems/permutations/discuss/18284/Backtrack-Summary%3A-General-Solution-for-10-Questions!!!!!!!!-Python-(Combination-Sum-Subsets-Permutation-Palindrome)
+
+** https://leetcode.com/problems/sliding-window-maximum/
