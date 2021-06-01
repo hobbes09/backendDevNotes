@@ -13,6 +13,10 @@ https://www.geeksforgeeks.org/making-elements-of-two-arrays-same-with-minimum-in
 
 https://leetcode.com/problems/fruit-into-baskets/
 
+https://leetcode.com/problems/subarray-sum-equals-k/
+
+https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
+
 ** https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
   - https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/discuss/252633/JavaPython-3-one-pass-counting-O(A-%2B-B)-w-brief-explanation-and-analysis.
 
@@ -20,6 +24,15 @@ You’re given an array of integers. You need to find if there exists a triplet 
   >  i < j < k
   >  a[i] < a[k] < a[j]
 
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+https://leetcode.com/problems/longest-palindromic-substring/
+
+https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+
+https://leetcode.com/problems/car-pooling/
+
+https://leetcode.com/problems/partition-labels/
 
 ** StringBuilder Usage : https://leetcode.com/problems/repeated-string-match/solution/
 
