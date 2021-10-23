@@ -1,0 +1,26 @@
+
+Streaming : https://stackify.com/streams-guide-java-8/
+
+================================================================================
+
+Executor Service :: http://tutorials.jenkov.com/java-util-concurrent/executorservice.html#submit-runnable
+
+ExecutorService taskExecutor = Executors.newFixedThreadPool(4);
+while(...) {
+  taskExecutor.execute(new MyTask());
+}
+taskExecutor.shutdown();
+try {
+  taskExecutor.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
+} catch (InterruptedException e) {
+  ...
+}
+
+
+Other approaches : https://stackoverflow.com/questions/1250643/how-to-wait-for-all-threads-to-finish-using-executorservice
+
+================================================================================
+
+Java Program to Sort Keys in TreeMap by using Comparator with User Defined Objects
+
+https://www.geeksforgeeks.org/java-program-to-sort-keys-in-treemap-by-using-comparator-with-user-defined-objects/

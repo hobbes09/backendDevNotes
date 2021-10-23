@@ -1,0 +1,72 @@
+
+https://leetcode.com/problems/top-k-frequent-words/
+
+
+You have a matrix m * n
+this matrix contains only 1s and 0s
+this matrix is row wise sorted
+you need to find the length of max consecutive 1s in any row in the matrix
+
+
+
+proxity placement group
+zone awareness
+DR between regions
+xpact security
+backup restore
+
+
+He mentioned topics in this discussion. Exceeds expectation in knowledge in all
+- High Availability by replication.
+- Disaster recovery by cross-datacenter replication.
+- Multi-node clusters.
+- Hardware type choosing criteria (IO optimization in hardware).
+-  Proximity placement for rack awareness.
+- Zone awareness by cross-zone replication.
+- Optimisation by kernel swappiness adjustments.
+- Backup restore.
+
+
+
+
+Design a car selling chain dealership with the following characteristics :
+- The chain consists of many stores
+- Each store is located in a particular state. Eg : Maharastra, Karnataka, etc
+- Each store sells number of cars
+- A car is characterised  by Company Brand (BMW, Mercedes, Audi, etc),
+Model number (ABC123, ASD12, etc) and color (White, Black, Red, etc).
+- Each store sells only a sebset of all possible cars
+- Nature of queries ::
+1) Fetch all stores that sells car of a particular type
+2) For a given location, find cars of a particular type
+
+
+You have built an online dictionary website. A user can enter a word and the website responds with the meaning of the word.
+In the backend, build a function that can get a stream of these queried words and always display the top 5 searched words.
+
+
+
+Free-Wifi Service in Airports have capabilities to track users and their devices.
+They use this information to limit the internet access upto a certain limit.
+
+Design a free-wifi service in an airport that has the following restrictions :
+1) A user (identified by a phone number) can login a maximum of 3 times per hour.
+2) A user can connect to a maximum of 2 concurrent devices at a time.
+
+Problems :
+1) Create a service that allow a user login implementing the mentioned restrictions.
+Use language data structures to any kind of storage requirements.
+
+
+
+
+
+
+
+Design a auction-bidding system with the following properties :
+
+- Users can add new items for auction.
+- User can define minPrice, description and detail, start time and endtime for each auctioned item
+- Bidders can search on upcoming and current auction items
+- Bidders can bid on an item, modify bid or cancel bid.
+- Auction System will declare a winner at the closing time of the auction.

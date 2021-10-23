@@ -1,0 +1,25 @@
+Overall Feedback for all categories
+  Design and Architecture
+    API designing
+      - Candidate was able to provide a basic desciption of for both feed fetch API and post create API
+      - Candidate missed critical details of pagination and error codes in feed fetch API
+      - Candidate gave wrong response status code for post create API
+    Solutioning of problem
+      - The overall solution architecture provided by the candidate worked on brute force application design Principles
+      - The solution sufferred from critical performance issues that would render it useless beyond few thousand users in the platform
+      - Candidate did not consider pre-optimisation techniques for generating feed of the user
+    High level architecture
+      - Candidate was able to provide a basic functional high level architecture of the solution
+      - Was able to discuss a brute force functional flow for post create and feed fetch API
+    Low level cases
+      - The number of queries for each feed creation was enourmous
+      - Tracking of each user's already watched content was ng stored with hugh amount of space cost in terms of database tables
+    Database schema design
+      - Candidate was unable to mention all the relevant entities that should be considered in the schema design
+      - Candidate did not provide much justification on using MySQL for primary storage for the feed data
+      - Basic functional queries for the feedback generation was provided
+      -
+  Large scale development
+    Application scaling
+    Storage scaling
+    Solution scaling 

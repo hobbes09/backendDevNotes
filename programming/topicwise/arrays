@@ -13,7 +13,12 @@ https://www.geeksforgeeks.org/making-elements-of-two-arrays-same-with-minimum-in
 
 https://leetcode.com/problems/fruit-into-baskets/
 
+https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/
+
 https://leetcode.com/problems/subarray-sum-equals-k/
+  - https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
+
+
 
 https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
 
@@ -80,6 +85,8 @@ https://leetcode.com/problems/product-of-array-except-self/
 [WC] https://leetcode.com/problems/text-justification/
 
 ** [Sliding window best example] : https://leetcode.com/problems/minimum-window-substring/
+  - https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+
 
 ** [ND] https://leetcode.com/problems/burst-balloons/solution/
 
@@ -104,3 +111,5 @@ https://leetcode.com/problems/longest-increasing-subsequence/
 ** https://leetcode.com/problems/sliding-window-maximum/
 
 https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
+
+https://leetcode.com/problems/3sum-closest/solution/

@@ -1,3 +1,11 @@
+Trees Basics
+============
+
+https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/?ref=lbp
+
+https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/?ref=lbp
+
+
 
 Tries
 ======
@@ -15,7 +23,7 @@ https://leetcode.com/problems/binary-tree-right-side-view/
   - By the end, only the right most nodes entry will survive
 
 
-* https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
+* https://leetcode.com/problems/binary-tree-maximum-path-sum/solution/
 
 https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
@@ -61,3 +69,11 @@ https://leetcode.com/problems/time-needed-to-inform-all-employees/
     - https://www.youtube.com/watch?v=CWDQJGaN1gY
     - https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/
     - https://leetcode.com/problems/range-sum-query-2d-mutable/discuss/75870/Java-2D-Binary-Indexed-Tree-Solution-clean-and-short-17ms
+
+
+=================================================
+
+https://leetcode.com/problems/count-good-nodes-in-binary-tree
+
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/
+  - https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/

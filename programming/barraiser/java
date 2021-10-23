@@ -1,0 +1,102 @@
+how hash map works
+
+memory management
+
+- G1 garbage collector
+
+difference between stack and heap
+
+Executor thread ... excess task management (periodic trigger)
+
+- What is dependency Injection?
+
+- What is Spring Actuator? What are its advantages?
+
+- thread dump and  heap dump usages
+
+
+- puzzle 36, 25
+
+public class Indecisive {
+    public static void main(String[] args) {
+        System.out.println(decision());
+    }
+
+    static boolean decision() {
+        try {
+            return true;
+        } finally {
+            return false;
+        }
+    }
+}
+
+public class Increment {
+    public static void main(String[] args) {
+        int j = 0;
+        for (int i = 0; i < 100; i++) j = j++;
+        System.out.println(j);
+    }
+}
+
+
+
+
+- thread safe performant example of singleton
+
+You need to store data in a tree map in a  sorted manner based on name. How will you approach for this?
+
+What do you mean by immutable classes in Java?
+-> What are the steps involved in making a class immutable?
+
+What is synchronization in Java?
+
+What is the difference between wait and sleep?
+
+Are hash maps thread safe? Support your answer with proper reasons.
+
+What is serialization in Java? Explain in detail.
+
+What is the difference between @Service and @Repository annotation ?
+
+What is the difference between singleton and prototype? Explain an example of singleton  class.
+
+Write a code to demonstrate the Functional interface for the application.
+
+What are the different types of streams in Java8?
+-> Write an example to demonstrate the normal stream.
+
+
+
+
+SingleThreadedExecutorService.
+  -> Periodically (period=1sec) we are assigning tasks to the service (the thread)
+  -> If the task execution/processing duration is larger than 1 second, that what happend to the tasks ?
+  Eg :
+t1 = 0 = 0.5s
+
+t2 = 1 = 1.2s
+
+t3 = 2 = 1.8s
+
+t4 = 3 = 0.3s
+Please mention the start time of execution of these tasks ?
+
+
+Hibernate : what are dialects ?
+
+
+Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.
+LRUCache(int capacity)
+int get(int key)
+void put(int key, int value)
+LRUCache lRUCache = new LRUCache(2);
+lRUCache.put(1, 1); // cache is {1=1}
+lRUCache.put(2, 2); // cache is {1=1, 2=2}
+lRUCache.get(1);    // return 1
+lRUCache.put(3, 3); // LRU key was 2, evicts key 2, cache is {1=1, 3=3}
+lRUCache.get(2);    // returns -1 (not found)
+lRUCache.put(4, 4); // LRU key was 1, evicts key 1, cache is {4=4, 3=3}
+lRUCache.get(1);    // return -1 (not found)
+lRUCache.get(3);    // return 3
+lRUCache.get(4);    // return 4

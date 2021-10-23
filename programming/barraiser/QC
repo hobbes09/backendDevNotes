@@ -1,0 +1,64 @@
+>> Coding
+
+- Approach of problem
+- Understanding of Data structure implementations
+- Understanding of problem
+- Ability to deduct brute force Approach
+- Ability to identify optimal or better-than-brute-force approach
+- Understanding of time and space complexity
+- Hints from interviewer
+- Ability to identify edge-cases and boundary conditions
+- Ability to ask questions to resolve ambiguity
+
+
+- Language fluency
+- DS implementation in Language
+- Code quality in terms of naming of methods and variables
+- Ability to resolve compilation and runtime issues
+- Ability to submit functional/optimal code
+
+Overall feedback section comments can be improved on commenting about every category and subcategory evaluated
+
+===========================================================================
+
+1. Direct question asked or not
+
+2. Relevancy and quality of question as per candidate experience and job role
+
+3. Follow up questions quality (Good or bad)
+
+4. Expert knowledge
+
+5. Proper Explanation or not fo the question
+
+6. Proper hints given or not
+
+7. Correct Category mapping
+
+
+===========================================================================
+
+
+>> LLD problems
+
+- Understanding of problem
+- Ability to identify edge-cases and mention assumptions
+- Ability to ask questions to resolve ambiguity
+- Identify usecases of the system
+
+- Ability to identify entities
+- Relation between entities
+- Entity model design
+- Identify queries for usecases
+- Ability to identify correct data structure implementations in the model
+
+- Understanding of OOPS concepts and ability to implement them
+- Ability to modularize and remove tight coupling between modules
+- Ability to break problem in small sub-problems
+- Extensibility of the low level design
+
+
+======
+
+
+Create a post in Linkedin with Nested comments. How to store them and fetch them in a tree ? 
