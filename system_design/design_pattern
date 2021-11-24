@@ -1,3 +1,42 @@
+
+Principles
+===========
+
+https://medium.com/the-glitcher/clean-code-principles-and-software-engineering-principles-651cdcd67fcd
+
+DRY — Don’t Repeat Yourself. Opposite is WET.
+KISS — Keep It Simple Stupid.
+YAGNI — You Aren’t Gonna Need It
+
+
+>> SOLID principle
+Single Responsibility Principle — interface, class or method ideally should do
+one thing and do that well
+
+Open-Closed Principle — Open for extension and closed for modification.
+You class should have everything — closed for modification but is open for
+extension through inheritance or composition.
+
+Liskov Substitution Principle — Every subclass should be substitutable for their
+parent class. This helps in reducing coupling.
+
+Interface segregation Principle — Every class must implement the methods of the
+interface it implements. This principle states that classes should not require
+to implement methods which they do not require. It helps in creating more
+smaller & focused interfaces.
+
+Dependency Inversion Principle — Classes should depend only on their
+abstractions, not on their implementations. The classes should not instantiating
+their dependencies but they should be injected into the class.
+
+
+
+Open Closed principle : http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
+
+
+
+
+================================================================================
 Design Patterns
 ================
 

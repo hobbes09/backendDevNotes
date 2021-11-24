@@ -69,4 +69,24 @@ Design a auction-bidding system with the following properties :
 - User can define minPrice, description and detail, start time and endtime for each auctioned item
 - Bidders can search on upcoming and current auction items
 - Bidders can bid on an item, modify bid or cancel bid.
+- Bidders get notified if their bid is lost.
 - Auction System will declare a winner at the closing time of the auction.
+
+
+
+
+
+Design an auction-bidding system with the following properties :
+
+- Users can add new items for auction.
+- User can define min Price, description and detail, start time and end time for each auctioned item
+- Bidders can search on upcoming and current auction items
+- Bidders can bid on an item, modify the bid or cancel the bid.
+- Bidders get notified if their bid is lost.
+- Auction System will declare a winner at the closing time of the auction.
+
+
+Q) Explain the following journeys :
+a) auction creator
+b) Bidder bidding on an auction
+c) An individual auction journey

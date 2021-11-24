@@ -39,7 +39,7 @@
   - Offloading portion of the load (free content) to CDN
     - Design tracking and debugging functionalities
     - Detailing introduced for easy debugging of outdated tokens for free content served from CDN
-  - For load in origin server, keep processing time for request minimal
+    - For load in origin server, keep processing time for request minimal
     - Only important operation like authorisation check is sync process
     - Rate limits, invalid sessions, risk analysis is async (with SLA)
 
@@ -95,6 +95,22 @@
 - Vertical testing of each service - results in per pod estimation and checking of degraded performance and efficient utilization of resources, and panic verification
 - Identify weak points of each service and design degradation scenario handling
 - Gameday scripts to mock the real-match traffic volume
+
+Overall :
+  User :
+    - User load behavior during games
+    - Load spikes  
+  Application :
+    - Veritical capability of each pod
+    - Scaling ladder
+    - Degradation protocol
+    - Panic handler and disaster recovery
+    - Alarms and monitoring
+  Database / ELB :
+    - Always prewarmed OR pre-provision allocated
+    - Alarms and monitoring
+    - Degradation protocol
+    - Disaster recovery
 
 
 

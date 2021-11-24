@@ -32,18 +32,24 @@
 [WC] https://www.youtube.com/watch?v=rKQaZuoUR4M
 
 
-# Minimum Spanning Tree
+## Minimum Spanning Tree
 
-  - Kriskal's algorithm
+  - Given a graph containing V number of vertices and E number of edges.
+  - The minimal spanning tree should contain  V number of vertices and E-1 number of edges.
+  - Number of ways of selecting spanning trees (not necessarily minimal) is E[C](V-1) - number of cycles
+
+  >> Kriskal's algorithm
     - O(E log V) using binary heaps
-  - Prim's algorithm
+
+  >> Prim's algorithm
+    - Good example :: https://leetcode.com/problems/connecting-cities-with-minimum-cost/discuss/357446/Simple-Java-solution-for-slow-learners-like-myself
     - O(E log V) using binary heaps
     - O(E + V log V) using Fibonacci heaps
 
-  - Tutorial :  ABYT** : https://www.youtube.com/watch?v=4ZlRH0eK-qQ
+  >> Tutorial :  ABYT** : https://www.youtube.com/watch?v=4ZlRH0eK-qQ
 
 
-# Single Source Shortest path
+## Single Source Shortest path
 
   - Dijkstra : ABYT = https://www.youtube.com/watch?v=XB4MIexjvY0
 
@@ -124,3 +130,5 @@ https://leetcode.com/problems/course-schedule/
 https://leetcode.com/problems/course-schedule-ii/
 
 https://leetcode.com/problems/number-of-provinces/solution/
+
+https://leetcode.com/problems/redundant-connection-ii/

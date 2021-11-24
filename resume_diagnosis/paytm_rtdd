@@ -1,0 +1,26 @@
+
+## Aggregation Service
+
+
+## Batch Processing Service
+
+Solutions :
+  BinLog/CommitLog --> DMS --> Kafka --> Processing Service -> Data Sink
+  Arch NFRs :
+    - Sclability (Add more partitions, DMS instances, app scaling)
+    - Ability to bifurcate the migration as much as possible
+    - Reliability/Recoverability protocols
+
+
+# What to talk about
+
+    1. Brief introduction about the Service
+    2. For each project :
+      * Mention the objective in 1 line
+      * What was your role
+      * How was the project accomplished (Planning and technical)
+      * Technical challenge aspect
+      * How did you overcome it
+      * What were the other approaches considered and their pros and cons
+      * Comment about overall scale / resiliency / availability and how it was overcome
+      * Any particular debugging case

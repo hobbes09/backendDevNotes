@@ -24,3 +24,21 @@ Other approaches : https://stackoverflow.com/questions/1250643/how-to-wait-for-a
 Java Program to Sort Keys in TreeMap by using Comparator with User Defined Objects
 
 https://www.geeksforgeeks.org/java-program-to-sort-keys-in-treemap-by-using-comparator-with-user-defined-objects/
+
+
+================================================================================
+
+Java Generics
+
+https://www.geeksforgeeks.org/generics-in-java/
+
+https://www.baeldung.com/java-generics
+
+https://dzone.com/articles/creating-a-custom-linked-list-implementation
+
+================================================================================
+
+TreeMap functions
+
+https://medium.com/swlh/dealing-with-ranges-using-java-treemaps-3620c6cc8b8
+http://www.java2s.com/Tutorials/Java/Map/How_to_get_a_sub_map_from_TreeMap_for_a_range_of_key_value.htm
