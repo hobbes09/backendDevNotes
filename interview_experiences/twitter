@@ -27,3 +27,120 @@ https://leetcode.com/problems/minimum-moves-to-equal-array-elements
     The two equations above would give us m = s - k*min = sum(array) - array.len * array[0]
 
     - Coding approach : Check Approach #5 Using Math[Accepted]
+
+
+==================================
+
+https://leetcode.com/discuss/interview-question/1498102/twitter-0a-2021-questions-and-previous-all-leetcode-resources
+=-================================
+
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+/*
+Given a N x M matrix of 1s and 0s, find the number of islands that exist. A group of connected 1s form an island. 1s can be connected in all directions and diagonal.
+
+11000
+01001
+10011
+00000
+10101
+
+int[][] islands = new int[][]{
+  { 1, 1, 0, 0, 0},
+  { 0, 1, 0, 0, 1},
+  { 1, 0, 0, 1, 1},
+  { 0, 0, 0, 0, 0},
+  { 1, 0, 1, 0, 1}
+};
+
+
+
+*/
+
+public class Solution {
+
+static int[][] islands = new int[][]{
+  { 1, 1, 0, 0, 0},
+  { 0, 1, 0, 0, 1},
+  { b, c, 0, 1, 1},
+  { a, A1, 0, 0, 0},
+  { 1, 0, 0, 0, 1}
+};
+
+static int count =0;
+
+public static void main(String[] args) {
+       System.out.println(countIslands());
+}
+
+public static int countIslands() {
+
+    if (islands.length == 0)
+        return 0;
+
+    for (int row=0; row<islands.length; row++) {
+        for (int col=0; col<islands[row].length; col++) {
+            if (isNeedsToBeExplored(row, col)) {
+                triggerDFS(row, col);
+                count++;
+            }
+        }
+    }
+
+    return count;
+}
+
+private static void triggerDFS(int row, int col) {
+
+    visitLocation(row, col);
+
+    int[] rowIndex = {-1, -1, 0, 1, 1, 1, 0, -1};
+    int[] colIndex = {0, 1,1,1, 0, -1, -1,-1};
+
+    for (int i=0; i<rowIndex.length; i++) {
+            int newRow = row + rowIndex[i];
+            int newCol = col + colIndex[i];
+            if (isNeedsToBeExplored(newRow, newCol)) {
+                triggerDFS(newRow, newCol);
+            }
+    }
+
+}
+
+
+private static boolean isNeedsToBeExplored(int row, int col) {
+
+    if (row <0 || row >= islands.length)
+        return false;
+
+    if (col <0 || col >= islands[0].length)
+        return false;
+
+    if (isLandMassAndNotVisited(row, col))
+        return true;
+
+    return false;
+}
+
+
+private static boolean isLandMassAndNotVisited(int row, int col) {
+    return islands[row][col] == 1;
+}
+
+private static  boolean isLandMassAndVisited(int row, int col) {
+    return islands[row][col] == -1;
+}
+
+private static boolean isLandMass(int row, int col) {
+    return islands[row][col] != 0;
+}
+
+private static void visitLocation(int row, int col) {
+    islands[row][col] = -1;
+}
+}

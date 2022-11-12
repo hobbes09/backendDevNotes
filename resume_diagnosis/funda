@@ -1,0 +1,50 @@
+Funda
+========
+
+>> Managers Job
+  - Get better outcome from a group of people
+
+>> Evaluation of manager's job
+  - Evaluate present outcome
+  - Are we setup for better outcome in the future
+
+>> Manager's daily work
+  - What/Purpose = Does the team know the priorities, what success looks like and care about it ?
+  - Who/People = Are the right people assigned for the job ? Deevelop trust and coach them.
+  - How/Process = Figure out solution and setup right processes of how execution should be carried out.
+
+  -- All above brings a multiplier effect to progress, as compared to additive effect by IC
+
+
+>> Why people's performance suffers ?
+  - People don't know how to do good work
+    - Domain knowledge
+    - Skills for job
+    - Right people mapping
+  - They aren't motivated enough
+
+>> How to do great work ::
+  - Make a game plan
+  - Focus on doing few things well
+  - Define ownership
+  - Break down bigger goals to smaller chunks
+
+
+>> A good engineering manager is
+
+* A priority Queue (Like Kafka, SQS) - There are a large number of requests coming to an Engineering manager.
+He/She will hold the right tasks (and take the pressure) so that you can focus on your current item.
+
+* A Load Balancer (Like Nginx) - Will balance load based on the number of people in the team,
+also has different algorithms as unlike computers humans have high variations in output.
+
+* A rate limitter (like resilience4j) - He/She will rate limit so that the best developers dont get burned out.
+
+* Health Check & Restart container (like Kubernetes) - He/She will monitor devs who are either struggling with the tasks
+or have resigned to reasssign the tasks or spin up new pods.
+
+=====================
+
+expectation from role
+
+biggest fear - learning about domain

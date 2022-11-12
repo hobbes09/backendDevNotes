@@ -42,3 +42,26 @@ TreeMap functions
 
 https://medium.com/swlh/dealing-with-ranges-using-java-treemaps-3620c6cc8b8
 http://www.java2s.com/Tutorials/Java/Map/How_to_get_a_sub_map_from_TreeMap_for_a_range_of_key_value.htm
+
+================================================================================
+
+https://docs.spring.io/spring-boot/docs/current/actuator-api/htmlsingle/#prometheus.retrieving
+
+ask question on how to view application usage of memory in a spring boot application ?
+=========
+
+https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.external-config
+
+either on ordering or designing the file based solution
+
+===========
+
+Actuator endpoints automatically cache the responses to read operations that do not take any parameters. Use cache.time-to-live property to configure the amount of time for which an endpoint will cache the response.
+Caching the response for 20 seconds
+management.endpoint.beans.cache.time-to-live=20s
+
+Q) How to cache response in a spring boot application using SB inbuild caching solution, while using a Redis as caching service, for a particular API, for say 20 secs ?
+
+============
+
+https://www.baeldung.com/spring-scheduled-tasks

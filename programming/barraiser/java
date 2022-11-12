@@ -49,6 +49,15 @@ public class Car {
   int age;
 }
 
+You need to store car collection in an array in a  sorted manner based on age. How will you approach for this?
+
+list = []
+
+# appending instances to list
+list.append( Car('bmw1', 2) )
+list.append( Car('bmw2', 40) )
+list.append( Car('bmw3', 44) )
+
 You need to store car collection in a tree map in a  sorted manner based on age. How will you approach for this?
 
 What do you mean by immutable classes in Java?
@@ -70,8 +79,6 @@ Write a code to demonstrate the Functional interface for the application.
 
 What are the different types of streams in Java8?
 -> Write an example to demonstrate the normal stream.
-
-
 
 
 SingleThreadedExecutorService.
@@ -107,10 +114,63 @@ lRUCache.get(3);    // return 3
 lRUCache.get(4);    // return 4
 
 
+What Happens When There Is Not Enough Heap Space to Accommodate Storage of New Objects?
+
+How Do You Trigger Garbage Collection from Java Code?
+
+If 2 or more objects have circular reference, will they be eligible for GC ?
+
+How is inter-thread communication implement in java ? Explain the lifecycle  ?
+
+Write a generic method in java to sort a array of objects, based on another generic comparator ?
+
+
+https://www.baeldung.com/java-memory-management-interview-questions
+
+https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
+
+https://www.javatpoint.com/inter-thread-communication-example
+
+https://www.baeldung.com/java-generics
+
+Spring boot :
+  - How is graceful shutdown implemented in spring boot  ?
+  - What is the role of actuator in Spring boot applications ?
+
 
 =========================================================================
 
 
-What is the command to fetch the last 100 lines from a log file and write in another file?
+What is dependency injection in springboot ? ###
 
-Write a shell script to fetch a remote file from 100 individual remote machines whose Input is known.
+What is the role of spring.profile.active?  ###
+
+How spring boot supports Internatlization to cater to users of different language preferences ?
+
+
+Discuss SB's solution to support task scheduling ?
+ -> How to implement task scheduling and what params can be configured for that ?
+
+
+If 2 or more objects have circular reference, will they be eligible for GC ?
+
+How is inter-thread communication implement in java ? Explain the lifecycle  ?
+
+Write code for a generic factory class in Java ? There should be a method named "createInstance" to trigger instance creation of type T.
+http://tutorials.jenkov.com/java-generics/classes.html
+
+Suppose we have a composite index on columsn c1,c2,c3 of a table in MySQL
+
+In which of these combination, indexing is applicable ?
+- c2,
+- c3
+- c2,c3
+- c1,c2
+- c1
+- c1,c2,c3
+- c1,c3
+
+
+
+
+Can you write code for singleton design pattern that is thread safe and is performant ?

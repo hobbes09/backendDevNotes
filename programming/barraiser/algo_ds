@@ -9,26 +9,6 @@ you need to find the length of max consecutive 1s in any row in the matrix
 
 
 
-proxity placement group
-zone awareness
-DR between regions
-xpact security
-backup restore
-
-
-He mentioned topics in this discussion. Exceeds expectation in knowledge in all
-- High Availability by replication.
-- Disaster recovery by cross-datacenter replication.
-- Multi-node clusters.
-- Hardware type choosing criteria (IO optimization in hardware).
--  Proximity placement for rack awareness.
-- Zone awareness by cross-zone replication.
-- Optimisation by kernel swappiness adjustments.
-- Backup restore.
-
-
-
-
 Design a car selling chain dealership with the following characteristics :
 - The chain consists of many stores
 - Each store is located in a particular state. Eg : Maharastra, Karnataka, etc
@@ -57,9 +37,23 @@ Problems :
 1) Create a service that allow a user login implementing the mentioned restrictions.
 Use language data structures to any kind of storage requirements.
 
+======================================================================
+
+University servers have capabilities to track users and their devices and all user activity.
+They use this information to limit user access to download research articles from university database.
+
+Design a downloader service in the university server application that has the following restrictions :
+1) A user (identified by a phone number) can download a maximum of 100 articles per hour.
+2) A user can connect to a maximum of 2 concurrent devices at a time.
+
+Problems :
+1) Create a service that allow a user to trigger download after checking the above restrictions are not violated.
+Use language data structures to any kind of storage requirements.
+
+============================================================================
 
 
-
+https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
 
 
 
@@ -73,20 +67,141 @@ Design a auction-bidding system with the following properties :
 - Auction System will declare a winner at the closing time of the auction.
 
 
-
-
-
-Design an auction-bidding system with the following properties :
+Design a auction-bidding system with the following properties :
 
 - Users can add new items for auction.
-- User can define min Price, description and detail, start time and end time for each auctioned item
-- Bidders can search on upcoming and current auction items
-- Bidders can bid on an item, modify the bid or cancel the bid.
-- Bidders get notified if their bid is lost.
+- User can define minPrice, description and detail, start time and endtime for each auctioned item
+- Each aution item can have any number of tags associated with them
+- Bidders can search on upcoming and current auction items, and can pass any number of tags on the search criteria.
+- Bidders can bid on an item, modify bid or cancel bid.
 - Auction System will declare a winner at the closing time of the auction.
 
+> mysql - composite indexing question
+   how indexing works
 
-Q) Explain the following journeys :
-a) auction creator
-b) Bidder bidding on an auction
-c) An individual auction journey
+> NoSQL
+  - search functionality
+  - how it works
+
+> OOPS
+  - Search service model design
+
+> Design pattern
+  - DB connection pool with thread safety
+
+> Architecture Patterns (Optional)
+  - Event driven arch
+
+
+
+=========================================================================
+
+
+Implement a message broker using Golang.
+Functionalities expected :
+- The MB in this context is a single queue with fixed size and needs to be of blocking nature.
+- If the capacity of the queue is 'C', then push/add to the queue after C elements should be blocked (or wait till one slot is free)
+- If the capacity of the queue is 'C', then pop/pull/remove out of the queue while having 0 elements should be blocked (or wait till one slot is available)
+- If multiple consumers (threads) are consuming from the MB, then ordering is not expected.
+- The nature of the data in the MB, can be a simple struct with content (id int, and text string)
+
+The Producer:
+- Its an async collection of process, that pushes data into the MB
+
+The Consumer :
+- Its an async collection of process, that pulls data into the MB
+
+Questions :
+
+1) How are implemneting the blocking and threads waiting feature in the MB ?
+Hint : In golang, think of something that has this feature
+Hint : Use standard push and pull features of channel
+Hint : If channel is full or empty, there is already a waiting behaviour
+
+
+2) Can you summarise the MB behaviour ?
+
+3) What all primary methods will be required in the MB class ?
+
+=============================================================================
+
+# A backend service is receiving events of user activity from a stream.
+# The user activity event looks like ::
+# {userId: "u1", "date": "01-01-2022", "time": "0900"}
+
+# Given a list of such user activity events, return the top K active users.
+# The most active users have the most frequent number of events.
+
+# Eg :
+# {userId: "u1", "date": "01-01-2022", "time": "0900"}
+# {userId: "u2", "date": "01-01-2022", "time": "0901"}
+# {userId: "u1", "date": "01-01-2022", "time": "0902"}
+# {userId: "u1", "date": "01-01-2022", "time": "0903"}
+# {userId: "u2", "date": "01-01-2022", "time": "0904"}
+# {userId: "u3", "date": "01-01-2022", "time": "0905"}
+
+# K = 2
+
+# The output = {u1, u2}
+
+
+===============================================================================
+
+Design StackOverFlow where users can post and discuss technical problems within
+a community.
+- Users should be able to post Questions into the platform
+- Question posted by a user has a title, description and any number of tags.
+- Users can also post an answer to a question,
+- Users can also comment on either the question, or any answer posted, or any of the other comments
+- Posts are searchable by both tags and text of the title of the question.
+For tags search, all of the search tags should be present in the question.
+- Notifications::
+  - Trigger notif to the original author for any answer or comment.
+
+
+================================================================================
+
+A hospital issues token for its patients that wants medical consultation from doctors.
+There are however, some limitations on the tokens assigned ::
+1) X tokens can be generated every Y hours
+2) If the token is not used, it gets expired in Z hours
+3) Total number of tokens in a day should not exceed C count
+4) One person can have only 1 token at a time
+
+Create a function getToken(personId, timeInDateHourFormat) that issues token to a person.
+
+5) Create an appointment processor function that processes the tokens (takes token number as input and marks it as 'processed'). IF we add a further condition that a
+token T1, needs to be processed between A1 and B1 time intervals. However, if its a "premium" token, it can be processed anytime, given its not expired.
+
+================================================================================
+
+There is an online multiplayer game where multiple people can play simultaniously.
+Every time a player scores, an event is generated and sent to the backend service.
+Thus the backend receives a continuous stream of events of the form :
+
+Event = (time, userId, score).
+
+Given these information, develop solutions to ::
+1) Calculate the sum of scores (across all players) for last 1 hour
+2) Top scoring player in the last N, constant hours
+3) Most frequently scoring player in last M, constant hour
+
+================================================================================
+
+
+Desighn a movie ticket reservation system like BookMyShow.
+Auditoriums are phylical places where movies are shown.
+Each movie presentation is called a screening.
+Screening is showing of a particular movie in a particular auditoium at a particular time.
+A movie may be screened multiple times a day.
+An auditoum has a definite number of seats.
+While booking, we can reserve one or more seats.
+The seats are reserved only for the screening.
+
+The booking flow is as such :
+1) Select seats for the screening
+2) Block seats for 2 mins while the payment is completed
+3) Upon completion of payment, seats are reserved and tickets are allocated for seats to user.
+
+Q) Discuss the high level architecture or component architecture for the problem.
+ALso keep in mind the scale of the problem.

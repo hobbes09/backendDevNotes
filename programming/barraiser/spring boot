@@ -1,0 +1,39 @@
+Spring boot :
+  - How is graceful shutdown implemented in spring boot  ?
+  - What is the role of actuator in Spring boot applications ?
+
+
+Spring security
+
+What is dependency injection in springboot ?
+
+What is the role of spring.profile.active?
+
+public class Car {
+  String name;
+  int age;
+}
+
+You need to store car collection in an array in a  sorted manner based on age. How will you approach for this using java streams and lambda expressions ?
+
+
+
+public class Indecisive {
+    public static void main(String[] args) {
+        System.out.println(decision());
+    }
+
+    static boolean decision() {
+        try {
+            return true;
+        } finally {
+            return false;
+        }
+    }
+}
+
+
+
+If 2 or more objects have circular reference, will they be eligible for GC ?
+
+How is inter-thread communication implement in java ? Explain the lifecycle  ?

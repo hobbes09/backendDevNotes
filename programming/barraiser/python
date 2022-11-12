@@ -1,0 +1,203 @@
+
+What Happens When There Is Not Enough Heap Space to
+Accommodate Storage of New Objects?
+
+Python Memory Error or in layman language is exactly what it means,
+you have run out of memory in your RAM for your code to execute.
+When this error occurs it is likely because you have loaded the entire
+data into memory
+
+===========
+
+SingleThreadedExecutorService.
+  -> Periodically (period=1sec) we are assigning tasks to the service (the thread)
+  Eg :
+t1 = 0 = 0.5s
+
+t2 = 1 = 1.2s
+
+t3 = 2 = 1.8s
+
+t4 = 3 = 0.3s
+Please mention the start time of execution of these tasks ?
+
+===============
+
+Safe methods inter-thread communication
+
+https://www.geeksforgeeks.org/python-communicating-between-threads-set-1/
+
+=============
+
+
+from django.db import models
+
+class Reporter(models.Model):
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+    email = models.EmailField()
+
+    def __str__(self):
+        return "%s %s" % (self.first_name, self.last_name)
+
+class Article(models.Model):
+    headline = models.CharField(max_length=100)
+    pub_date = models.DateField()
+    reporter = models.ForeignKey(Reporter, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.headline
+
+    class Meta:
+        ordering = ['headline']
+
+
+Q) What is the nature of relationship between the entities ?
+
+Q) How would you modify the entities to implement a many-to-many relationship ?
+
+Q) What is cascading deletion approach ?
+
+Q) How cascading deletion works in  many-to-many model ?
+
+=========================================================
+
+How to use Django inbuilt permission to assign permission to spcific
+group of users from viewing or updating certain entities in the
+admin view  ?
+
+https://docs.djangoproject.com/en/4.0/topics/auth/default/#permissions-and-authorization
+
+==========================================================
+
+How to implement Proxy models in Django ? What is their usage ?
+
+https://micropyramid.com/blog/overriding-django-model-behaviour-with-proxy-model/
+
+==========================================================
+
+Signals in Django and their usage ?
+
+How to setup custom signal ?
+
+https://docs.djangoproject.com/en/4.0/topics/signals/
+
+How can we use Django signals in an API call, to trigger a parallel operation another domain in DJango ?
+Eg : When ever a article update is happening, a notification should be trigerred to the reporter.
+How can the notification service be involked using Django signals ?
+
+===========================================================
+
+https://www.geeksforgeeks.org/generators-in-python/
+============================================================
+
+Do you know about decorators in Python?
+What design pattern is correlated here ?
+
+============================================================
+
+Decorators :https://algodaily.com/lessons/python-interview-questions-cheat-sheet/step-thirty-30
+
+Generators in python
+
+
+===========================================================
+
+https://www.udacity.com/blog/2020/12/how-to-create-partial-functions-in-python.html
+
+===========================================================
+
+Q) Create a custom context manager class for file access.
+It should allow file access and removal of file on closing.
+
+https://www.geeksforgeeks.org/context-manager-in-python/
+
+===========================================================
+
+https://www.geeksforgeeks.org/ordereddict-in-python/
+
+Q) Whats the output ?
+
+
+from collections import OrderedDict
+
+print("Before:\n")
+od = OrderedDict()
+od['a'] = 1
+od['b'] = 2
+od['c'] = 3
+od['d'] = 4
+for key, value in od.items():
+    print(key, value)
+
+print("\nAfter:\n")
+od['c'] = 5
+for key, value in od.items():
+    print(key, value)
+
+print("\nAfter deleting:\n")
+od.pop('c')
+for key, value in od.items():
+    print(key, value)
+
+print("\nAfter re-inserting:\n")
+od['c'] = 3
+for key, value in od.items():
+    print(key, value)
+
+
+Q) Whats the output here ?
+
+https://www.geeksforgeeks.org/currying-function-in-python/
+
+// Assuming p,q,r are constants
+
+def func4(b, c, d):
+    def a(x):
+        return b(c(d(x)))
+    return a
+
+def func3(time):
+    return time / r
+
+def func2(time):
+    return time * p
+
+def func1(time):
+    return time + q
+
+if __name__ == '__main__':
+    transform = func4(func1, func2, func3)
+    e = transform(10)
+    print(e)
+
+
+=============================================================
+
+Data type of args and kwargs ?
+
+=============================================================
+
+// Question on named tuple
+
+Q)
+
+>>> from collections import namedtuple
+
+>>> Person = namedtuple("Person", "name children")
+>>> john = Person("John Doe", ["Timmy", "Jimmy"])
+>>> john
+Person(name='John Doe', children=['Timmy', 'Jimmy'])
+>>> id(john.children)
+139695902374144
+
+>>> john.children.append("Tina")
+{{output}}
+
+a) What is the output ?
+
+b)
+>>> id(john.children)
+{{x}}
+
+Will x be 139695902374144 ? Why ?

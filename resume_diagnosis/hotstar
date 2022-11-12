@@ -1,0 +1,12 @@
+>> Thoughts
+  - Drawbacks
+    1) Not able to arrange a second SMS sending vendor
+    2) Vendor real performance was not as good as perf test metrics
+  - Conflict with manager :
+    - Disagreed overall team development methodology.
+    - Needs to have context of all devs going on.
+    - Impacted resolution time for oncall prod issues.
+      - Created strong dependency back and forths.
+  - Conflict with peer
+    - Good coder, but hard to get update from him on a regular basis
+    - Independent developer

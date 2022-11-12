@@ -24,3 +24,32 @@ Solutions :
       * What were the other approaches considered and their pros and cons
       * Comment about overall scale / resiliency / availability and how it was overcome
       * Any particular debugging case
+
+
+>> Thoughts
+  - Toughest part of the experience
+    - Hard to connect and build trust purely virtually, without ever meeting them
+    - Hard to understand the domain with nobody to give us context
+  - Subordinate performance issue ::
+    - Constantly delivering late
+      - Reason :
+        - Domain understanding issue
+        - Motivational issue
+  - Manager issue :
+    - Elasticsearch migrated cluster setup issue :
+      - TO do :
+        - Setup cluster wit right estimations
+        - Lean existing cluster
+        - Support existing usecases
+      - What happened :
+        - Key field went mising from a report
+      - Issue :
+        - Not identified during schema review
+      - Resolution :
+        - Define ownership if you don't have full context
+        - Tests in place
+
+    - Other issues :
+      - QA, design, Techops, Devops ... all teams had separate charters
+        - Thereby, it was hard to get things done by people
+        - Common alignment and motivation was missing
