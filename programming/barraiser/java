@@ -174,3 +174,12 @@ In which of these combination, indexing is applicable ?
 
 
 Can you write code for singleton design pattern that is thread safe and is performant ?
+
+=========================================
+
+Q) You have a java application in production that you suspect has memory leaks. How will you verify this and what kind of tools can be detected to identify the source of the leaks ? 
+
+Q) What kind of metrics can be used to measure the performance of an API ? 
+
+
+Q) What is Unit testing ? WHat is the role of mocking in unit testing ? 

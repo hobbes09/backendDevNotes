@@ -56,7 +56,7 @@ Q) What is the nature of relationship between the entities ?
 
 Q) How would you modify the entities to implement a many-to-many relationship ?
 
-Q) What is cascading deletion approach ?
+Q) What is cascading deletion functionality ?
 
 Q) How cascading deletion works in  many-to-many model ?
 
@@ -201,3 +201,47 @@ b)
 {{x}}
 
 Will x be 139695902374144 ? Why ?
+
+
+======================================================
+
+Garbage collection : 
+
+https://stackify.com/python-garbage-collection/
+
+
+>>> class MyClass(object):
+...     pass
+...
+>>> a = MyClass()
+>>> a.obj = a
+>>> del a
+
+Will garbage collection methods in python GC the 'a' object ? 
+
+
+=======================================================
+
+class Inventory 
+    productNames[]
+    productCounts[]
+
+inventory1
+    productNames[] = {"apple", "orange"}
+    productCounts[] = {2,4}
+
+
+inventory2
+    productNames[] = {"apple", "pineapple"}
+    productCounts[] = {3,8}
+
+>>> inventory3 = inventory1 + inventory2
+
+
+inventory3
+    productNames[] = {"apple", "orange", "pineapple"}
+    productCounts[] = {5,4,8}
+
+
+How we can use the binary addition operator to execute addition operations on Inventory class ? 
+

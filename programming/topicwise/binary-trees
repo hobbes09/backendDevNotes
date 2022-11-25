@@ -27,11 +27,11 @@ https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
 
 https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
 
-https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
-
 https://www.geeksforgeeks.org/find-postorder-traversal-of-bst-from-preorder-traversal/
 
 https://www.geeksforgeeks.org/level-order-tree-traversal/
+	- Create a hashmap. key = level, value =  nodes
+	- For each node call, printNode() = {Push self to map at current level, printNode(left), printNode(right)}
 
 https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
 
