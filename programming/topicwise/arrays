@@ -11,11 +11,11 @@ https://www.geeksforgeeks.org/making-elements-of-two-arrays-same-with-minimum-in
 
 ** https://leetcode.com/problems/next-closest-time/
 
-https://leetcode.com/problems/fruit-into-baskets/
+** https://leetcode.com/problems/fruit-into-baskets/
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/
 
-https://leetcode.com/problems/subarray-sum-equals-k/
+** https://leetcode.com/problems/subarray-sum-equals-k/
   - https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
 
 
@@ -130,3 +130,7 @@ https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-6
 
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements/solutions/127525/minimum-moves-to-equal-array-elements/
   - Check approach 6 (Mathematical one)
+
+
+https://leetcode.com/problems/pour-water/description/
+  - https://leetcode.com/problems/pour-water/solutions/171104/share-my-java-straightforward-and-concise-solution/

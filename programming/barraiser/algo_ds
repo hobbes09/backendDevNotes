@@ -155,8 +155,7 @@ a community.
 - Users can also comment on either the question, or any answer posted, or any of the other comments
 - Posts are searchable by both tags and text of the title of the question.
 For tags search, all of the search tags should be present in the question.
-- Notifications::
-  - Trigger notif to the original author for any answer or comment.
+- For Notifications, Trigger notif to the original author for any answer or comment.
 
 
 ================================================================================

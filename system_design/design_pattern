@@ -33,6 +33,10 @@ their dependencies but they should be injected into the class.
 
 Open Closed principle : http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
 
+>> Best notes on SOLID : https://www.notion.so/SOLID-Principle-61d79315d99b4cfeaf854b984949f2ea
+
+
+>> Best video on SOLID : https://www.youtube.com/watch?v=XI7zep97c-Y&feature=emb_title
 
 
 
@@ -47,24 +51,37 @@ Common ones I use :
 
 1) Creational
 
-- Factory
-- Builder
+- Factory = https://www.digitalocean.com/community/tutorials/factory-design-pattern-in-java
+- Builder = https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java
+    {
+      private members
+      private constructor 
+      public getters
+      public static nested builder class
+      public builder class construtor 
+      builder class setters to set optional params that return caller object
+      builder class public build() method
+    }
 - Object pool
-- Singleton
+- Singleton = https://www.java67.com/2015/09/thread-safe-singleton-in-java-using-double-checked-locking-pattern.html
 
 
 2) Structural
 - Adapter
-  - https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
+  - https://www.digitalocean.com/community/tutorials/adapter-design-pattern-java
 - Proxy
-  - https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
+  - https://www.digitalocean.com/community/tutorials/proxy-design-pattern
 
 
 3) Behavioral
 - Observer
+  - https://www.digitalocean.com/community/tutorials/observer-design-pattern-in-java
 - Strategy
-  - https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
-
+  - https://www.digitalocean.com/community/tutorials/strategy-design-pattern-in-java-example-tutorial
+- Chain of Responsibility
+  - https://www.digitalocean.com/community/tutorials/chain-of-responsibility-design-pattern-in-java
+- Decorator 
+  - https://www.digitalocean.com/community/tutorials/decorator-design-pattern-in-java-example
 
 =========================================================
 
@@ -97,7 +114,7 @@ Flywheel = https://www.journaldev.com/1562/flyweight-design-pattern-java
 
 Facade = https://www.journaldev.com/1557/facade-design-pattern-in-java
 
-Decorator = https://www.journaldev.com/1540/decorator-design-pattern-in-java-example
+Decorator = https://www.digitalocean.com/community/tutorials/decorator-design-pattern-in-java-example
 
 
 
@@ -107,11 +124,11 @@ Template = https://www.journaldev.com/1763/template-method-design-pattern-in-ja
 
 Mediator = https://www.journaldev.com/1730/mediator-design-pattern-java
 
-Observer = https://www.journaldev.com/1739/observer-design-pattern-in-java
+Observer = https://www.digitalocean.com/community/tutorials/observer-design-pattern-in-java
 
 Chain of responsibility = https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java
 
-Strategy = https://www.journaldev.com/1754/strategy-design-pattern-in-java-example-tutorial
+Strategy = https://www.digitalocean.com/community/tutorials/strategy-design-pattern-in-java-example-tutorial
 
 Command = https://www.journaldev.com/1624/command-design-pattern
 

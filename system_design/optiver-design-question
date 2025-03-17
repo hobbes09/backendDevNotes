@@ -1,0 +1,103 @@
+Interview structure
+ 
+
+In this interview we will ask you to design a system to meet the requirements given below.    The interview will be structured as follows:
+
+5 minutes for you to read through the problem; after this time we will return to answer any questions you may have
+10 minutes to work through it on your own
+60 minutes for you to explain your solution, including the trade-offs you have made.  We may also add further requirements and ask you to adapt your design to suit. 
+5 minutes to wrap up with questions you have for us about working at Optiver  
+We have consciously chosen the requirements below to promote a good design discussion within the limited time available for this interview.  That naturally caps the complexity of the problem;  if you think something looks straightforward to solve it likely is.  
+
+ 
+
+Design brief
+ 
+
+Your brief is to design a system to capture, store and serve market data for research use. 
+
+ 
+
+Requirements
+ 
+
+Background information
+ 
+
+This problem does not require detailed knowledge of financial markets, but does involve the market data that exchanges produce.
+
+For this question we will focus on the data produced from the following basic trading activity:
+
+Market participants send orders to the exchange.  Orders are requests to buy or sell a certain quantity of a given stock at a given price, plus some information on order type (e.g. how long the order is valid for)
+The set of current orders live in the market forms the order book 
+When a buy and sell order match a trade occurs 
+As a simple example, starting from an empty order book: 
+
+Alice sends an order to buy 100 shares on Nintendo at ¥61200
+Bob sends an order to sell 50 shares of Nintendo at ¥61250
+The order book now contains those two orders.  
+No trade occurs; Alice wants to buy for less than Bob will sell at
+Carol then sends an order to sell 80 shares at ¥61200
+Carol's order matches Alice's, so a trade of 80 at ¥61200 occurs.
+The remaining order book is then:
+Alice buying 20 at  ¥61200
+Bob selling 50 at ¥61250
+ 
+
+Market data
+ 
+
+The key datasets within market data are therefore: 
+
+Trade ticks:  sent whenever a trade occurs and contains the details of that trade - e.g. the stock, price, quantity, timestamp
+Orders: sent when orders are inserted, amended or removed (aka 'pulled') 
+Order book: derived data that shows a snapshot of the order book at a given point.  This may be at multiple levels of detail:
+Price depth: a condensed form showing the sum of order size at each price level, but not individual order details 
+Full order book:  full view showing details of each specific order 
+E.g. if there are three buy orders for 50, 100 and 20 shares of Nintendo at ¥61200 the price depth will show 170 shares at ¥61200, whereas the full order book will show all three different orders
+Market statistics:  supporting information published periodically to summarise activity since the last statistics update
+Market state: administrative information such as whether the market for a particular stock is open or not 
+This data can be characterised as:
+
+Realtime:  it arrives from the exchange as streams of messages, not batches
+Voluminous: trades and order messages occur very frequently 
+Heterogenous in format:  most formats are specific to an individual exchange, or are an exchange-specific variant of an alleged standard 
+Subject to change:  exchange upgrades often alter the formats produced
+Commercial: exchanges derive revenue from market data and so impose license restrictions on who can use it and how  
+And finally some technical details:
+
+Data arrives over UDP multicast, TCP sockets or (less commonly) via a custom API
+Messages are typically encoded in a binary protocol, often proprietary and as noted above subject to change
+Message arrival times are important; exchanges often offer multiple market data services with different levels of detail & different timing characteristics, and may also offer multiple connection paths for a given service (i.e. duplicate streams over different network paths).    We care about those timing differences. 
+ 
+
+System requirements  
+ 
+
+As noted above your brief is to design a system to capture, store and serve market data for research use. 
+
+This system must provide for:  
+
+Data capture  
+WAN transmission
+Storage mechanism(s)
+Storage format(s)   
+Ready access to that data in different ways:  
+Batch programmatic use - e.g. an automated backtest of a pricing model against historical market data
+Exploratory programmatic use - e.g. a human processing the data in a Jupyter notebook or script, where they are interested in the results of computation on that data, not the raw data itself  
+Interactive human use - e.g. a human diving in to a particular trade in the market and seeing what happened immediately before and afterwards  
+Assurance that the data is correct and complete 
+There are multiple locations involved: 
+
+The market data is coming from Asian exchanges, predominately in Japan, Hong Kong, Korea and Singapore
+Users of the data are predominately in Sydney, but there may be occasional use from other Asian offices
+And you have the following resources available:
+
+Strong in-house software development & infrastructure teams
+Cloud platforms and services from the major providers (e.g. AWS)
+Your pick of open-source software
+Your pick of commercial software if the cost is justified 
+We look forward to discussing your design!  
+
+000000
+transparent

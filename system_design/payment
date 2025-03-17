@@ -1,0 +1,33 @@
+payment
+=========
+
+Payment Sources : 
+    - Wallet 
+    - Saving Acc
+    - Pay Later (Borrow) 
+    - Co branded credit card
+    
+Payment Methods :
+    - UPI
+    - CC/Db
+    - NB
+    - IMPS/NEFT/RTGS
+    - Cheque
+    - ATM Withdrawl
+
+Payment Types:
+    - P2P transfer
+    - Self Transfer
+    - Merchant Payment
+    - Merchant collect request
+    - Repayment (Borrow)
+    - Platform fee (Audo debit)
+    - Subscription/ Mandates(recurring)
+    
+Payment Status: 
+    - Pending
+    - Success
+    - Failure
+    - Reversed
+    - Refunded
+    

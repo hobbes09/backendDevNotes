@@ -1,0 +1,23 @@
+Requirements Doc Process
+========================
+
+Objective : 
+	- Detail the problem we are trying to solve ?
+	- Why is it a problem and what is the impact (any measurable quantity) ? 
+
+The solution : 
+	- Describe the solution
+	- Compare with other possible approaches 
+	- Success metrics for solution 
+
+User stories and Journeys :
+	- User flow 
+	- Edge case behaviours 
+	- Any transition steps from current to new flows
+	- Scope of the solution
+
+Development : 
+	- Deliveries 
+	- Priortisation 
+	- Meaningful mile stones
+	- Success criteria for each (measurable)

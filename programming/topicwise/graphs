@@ -85,7 +85,8 @@ Assume we are going to walk through the edge v->u.
 *** https://leetcode.com/problems/reconstruct-itinerary/
   - https://www.youtube.com/watch?v=xR4sGgwtR2I
   - https://www.youtube.com/watch?v=8MpoO2zA2l4
-  - https://leetcode.com/problems/reconstruct-itinerary/discuss/78768/Short-Ruby-Python-Java-C%2B%2B
+  - Solution for itinerary problem : https://www.youtube.com/watch?v=WYqsg5dziaQ
+  - ND : Solution for Euler path/ckt to be explored
 
 
 ** [ND][WC] https://leetcode.com/problems/open-the-lock/
@@ -134,6 +135,9 @@ https://leetcode.com/problems/number-of-provinces/solution/
 https://leetcode.com/problems/redundant-connection-ii/
 
 https://leetcode.com/problems/rotting-oranges/description/
+
+https://leetcode.com/problems/alien-dictionary/solutions/
+  - Try the DFS solution from here : https://leetcode.com/problems/alien-dictionary/solutions/562919/alien-dictionary/
 
 
 ==============================================================================
